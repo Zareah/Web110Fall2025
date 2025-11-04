@@ -1,0 +1,70 @@
+/*Felisha Stiles-Steele, 10,14,2025*/
+body {background-color: #3F4C67;
+	  background-repeat: repeat-x;
+}
+
+header {background-color: #3F4C67;
+		background-repeat: repeat-x;
+}
+
+#wrapper {width: 50%;
+		  margin-left: auto;
+		  margin-right: auto;
+		  min-width: 250px;
+		  max-width: 700px;
+		  padding: 10px;
+		  background-color: #E9D7C0;
+		  }
+
+h1 {text-align: center;
+		color: white;
+		border: 10px solid navy;
+}
+
+h2 {text-align: center;
+	color: #713830;
+}
+
+h5 {text-align: center;
+	display: inline;
+	padding: 35px;
+}
+
+img {display: inline;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px solid navy;
+	}
+
+p {text-align: center;}
+
+nav ul {list-style-type: none;
+		margin-left: auto;
+		margin-right: auto;
+
+		}
+
+nav li {display: inline;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		background-color: #F8D794;
+		color: white;
+		}
+
+footer {background-color: }
+
+nav li:hover {background-color: red;}
+
+nav a {text-decoration: none;
+	   padding: 10px;}
+	   
+nav a:link {color: blue;
+			background-color: #3F4C67;
+}
+
+nav a:visited {color: blue;}
+
+nav a:hover {color: white;}
+	
+nav a:active {color: purple;}
