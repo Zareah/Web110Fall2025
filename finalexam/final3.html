@@ -1,0 +1,67 @@
+<!--Felizha Stiles-Steele, 12/06/2025, finalexam - final1Page-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Form</title>
+		<link href="styles.css" rel="stylesheet" type="text/css">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+			<h1>Fill Out A Form</h1>
+			<h2>See Who You Are Most Compatible With</h2>
+			</header>
+			<nav class="navigation">
+				<ul>
+					<li><a href="final1.html">Home</a></li>
+					<li><a href="final2.html">Details</a></li>
+					<li><a href="final3.html">Form</a></li>
+					<li><a href="final4.html">Credits</a></li>
+				</ul>
+			</nav>
+		</div>
+	</body>
+	<main>
+		<form name="sample" method="post" id="sample" action="demo.php">
+		<div class="wrapper">
+			<h2></h2>
+		
+		<h2></h2>
+		<label for="myDate">Choose a date:</label>
+            <input type="date" name="myDate" id="myDate">
+			
+		<h2>What is your Favorite past-time.</h2>	
+		<h3>Check all that apply</h3>
+        <label><input type="checkbox" name="Option1" id="Option1" value="yes">Video Games</label><br>
+        <label><input type="checkbox" name="Option2" id="Option2" value="yes">Reading</label><br>
+        <label><input type="checkbox" name="Option3" id="Option3" value="yes">Bird Watching</label><br>
+		<label><input type="checkbox" name="Option1" id="Option1" value="yes">Skateboarding</label><br>
+        <label><input type="checkbox" name="Option2" id="Option2" value="yes">web Surfing</label><br>
+        <label><input type="checkbox" name="Option3" id="Option3" value="yes">Volunteer Work</label><br><br>
+        
+		<h2>What time do you wake up?</h2>
+		<h3>Choose the best option</h3>
+        <input type="radio" name="Option" id="Option" value="Option 4">Early Morning<br>
+        <input type="radio" name="Option" id="Option" value="Option 5">Mid Afternoon<br>
+        <input type="radio" name="Option" id="Option" value="Option 6">Evening<br><br>
+
+	</form>
+		<h2>Contact Us</h2>
+        <form method="post" action="demo.php" name="contact" id="contact">
+            <label for="myName">Name:</label>
+            <input type="text" name="myName" id="myName">
+            <label for="myEmail">E-mail:</label>
+            <input type="text" name="myEmail" id="myEmail">
+            <label for="myComments">Comments:</label>
+            <textarea name="myComments" id="myComments" rows="2" cols="20"></textarea>
+            <button type="submit">Submit</button>
+			<button type="reset">Reset</button>
+		</form>
+		</div>
+	</main>
+	<footer class="footer">
+		<p>&copy; 2025 Zareah &#124; All Rights Reserved</p>
+	</footer>
+</html>
